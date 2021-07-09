@@ -1,5 +1,5 @@
 pipeline {
-	agent slave3
+	agent dev
     stages {
         stage(checkout) {
             steps {
